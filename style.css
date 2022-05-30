@@ -41,7 +41,7 @@ body {
   flex-grow: 1;
 }
 
-.task-row_wrapper {
+.task-row__wrapper {
   display: flex;
 }
 
@@ -142,13 +142,13 @@ li>input[type="text"] {
   width: 226px;
 }
 
-.btn-icon_delete img {
+.btn-icon__delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.btn-icon_delete img:hover {
+.btn-icon__delete img:hover {
   transform: rotateZ(0);
 }
 
