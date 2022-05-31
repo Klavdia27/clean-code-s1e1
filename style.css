@@ -55,12 +55,12 @@ h3 {
   list-style: none;
 }
 
-input,
-button {
+.input,
+.btn {
   outline: none;
 }
 
-button {
+.btn {
   background: none;
   border: 0px;
   color: #888888;
@@ -70,7 +70,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.btn:hover {
   color: #3a3a3a;
 }
 
@@ -86,7 +86,7 @@ label[for="new-task"] {
   text-transform: uppercase;
 }
 
-input[type="text"] {
+.input[type="text"] {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -99,7 +99,7 @@ input[type="text"] {
   color: #888888;
 }
 
-input[type="text"]:focus {
+.input[type="text"]:focus {
   color: #333333;
 }
 
@@ -127,7 +127,7 @@ li>* {
   vertical-align: middle;
 }
 
-li>input[type="checkbox"] {
+li>.input[type="checkbox"] {
   margin: 0 10px;
 }
 
@@ -138,7 +138,7 @@ li>label {
   width: 226px;
 }
 
-li>input[type="text"] {
+li>.input[type="text"] {
   width: 226px;
 }
 
@@ -159,11 +159,11 @@ li>input[type="text"] {
 }
 
 /* Edit Task */
-ul input[type="text"] {
+ul .input[type="text"] {
   display: none;
 }
 
-.edit-mode input[type="text"] {
+.edit-mode .input[type="text"] {
   display: inline-block;
   width: 224px;
 }
